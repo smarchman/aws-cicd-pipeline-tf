@@ -76,7 +76,7 @@ resource "aws_iam_role" "tf-codebuild-role" {
     Environment = "development"
     Owner       = "smarchman"
     terraform   = "true"
-    terragrunt  = "not yet"
+    terragrunt  = "maybe next week"
   }
 }
 
